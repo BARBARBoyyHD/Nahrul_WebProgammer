@@ -1,4 +1,4 @@
-MUHAMMAD NAHRUL HAYAT_Web Progarmmer GRIT
+MUHAMMAD NAHRUL HAYAT_Web Programmer GRIT
 
 
 
