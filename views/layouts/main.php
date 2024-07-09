@@ -45,7 +45,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             ['label' => 'Pasien', 'url' => ['/info-pasien/index']],
             ['label' => 'info Obat', 'url' => ['/info-obat/index']],
             ['label' => 'info Klinik', 'url' => ['/info-klinik/index']], 
-            ['label' => 'Tagihan Pasien', 'url' => ['/info-tagihan/index']],    
+            ['label' => 'Tagihan Pasien', 'url' => ['/info-tagihan/index']],
+            ['label' => 'Tindakan Pasien', 'url' => ['/tindakan-pasien/index']],    
             Yii::$app->user->isGuest
                 ? ['label' => 'Login', 'url' => ['/site/login']]
                 : '<li class="nav-item">'
@@ -75,9 +76,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <footer id="footer" class="mt-auto py-3 bg-light">
     <div class="container">
         <div class="row text-muted">
-            <div class="col-md-6 text-center text-md-start">&copy; My Company <?= date('Y') ?></div>
-            <div class="col-md-6 text-center text-md-end"><?= Yii::powered() ?></div>
-        </div>
+            <div class="col-md-6 text-center text-md-start">&copy; Muhammad Nahrul Hayat <?= date('Y') ?></div>       
     </div>
 </footer>
 
